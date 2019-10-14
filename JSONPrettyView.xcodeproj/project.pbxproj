@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E4FA4DFE235214FA00B75175 /* jsonTree.css in Resources */ = {isa = PBXBuildFile; fileRef = E4FA4DFB235214FA00B75175 /* jsonTree.css */; };
+		E4FA4DFF235214FA00B75175 /* icons.svg in Resources */ = {isa = PBXBuildFile; fileRef = E4FA4DFC235214FA00B75175 /* icons.svg */; };
+		E4FA4E00235214FA00B75175 /* jsonTree.js in Resources */ = {isa = PBXBuildFile; fileRef = E4FA4DFD235214FA00B75175 /* jsonTree.js */; };
+		E4FA4E022352520100B75175 /* favicon.ico in Resources */ = {isa = PBXBuildFile; fileRef = E4FA4E012352520100B75175 /* favicon.ico */; };
+		E4FA4E0C23530DC100B75175 /* toggle96.png in Resources */ = {isa = PBXBuildFile; fileRef = E4FA4E0B23530DC000B75175 /* toggle96.png */; };
+		E4FDCE132351F76200007855 /* JSONPrettyView.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = E4FDCE122351F76200007855 /* JSONPrettyView.entitlements */; };
+		E4FDCE152351F76200007855 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FDCE142351F76200007855 /* AppDelegate.swift */; };
+		E4FDCE182351F76200007855 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4FDCE162351F76200007855 /* Main.storyboard */; };
+		E4FDCE1A2351F76200007855 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FDCE192351F76200007855 /* ViewController.swift */; };
+		E4FDCE1C2351F76300007855 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4FDCE1B2351F76300007855 /* Assets.xcassets */; };
+		E4FDCE232351F76300007855 /* JSONPrettyView Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = E4FDCE222351F76300007855 /* JSONPrettyView Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		E4FDCE282351F76300007855 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4FDCE272351F76300007855 /* Cocoa.framework */; };
+		E4FDCE2B2351F76300007855 /* SafariExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FDCE2A2351F76300007855 /* SafariExtensionHandler.swift */; };
+		E4FDCE2D2351F76300007855 /* SafariExtensionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FDCE2C2351F76300007855 /* SafariExtensionViewController.swift */; };
+		E4FDCE302351F76300007855 /* SafariExtensionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E4FDCE2E2351F76300007855 /* SafariExtensionViewController.xib */; };
+		E4FDCE332351F76300007855 /* script.js in Resources */ = {isa = PBXBuildFile; fileRef = E4FDCE322351F76300007855 /* script.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E4FDCE242351F76300007855 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4FDCE072351F76200007855 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E4FDCE212351F76300007855;
+			remoteInfo = "JSONPrettyView Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E4FDCE3C2351F76300007855 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				E4FDCE232351F76300007855 /* JSONPrettyView Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		E4FA4DFB235214FA00B75175 /* jsonTree.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = jsonTree.css; sourceTree = "<group>"; };
+		E4FA4DFC235214FA00B75175 /* icons.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = icons.svg; sourceTree = "<group>"; };
+		E4FA4DFD235214FA00B75175 /* jsonTree.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = jsonTree.js; sourceTree = "<group>"; };
+		E4FA4E012352520100B75175 /* favicon.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; path = favicon.ico; sourceTree = "<group>"; };
+		E4FA4E0B23530DC000B75175 /* toggle96.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = toggle96.png; sourceTree = "<group>"; };
+		E4FDCE0F2351F76200007855 /* JSONPrettyView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JSONPrettyView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4FDCE122351F76200007855 /* JSONPrettyView.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = JSONPrettyView.entitlements; sourceTree = "<group>"; };
+		E4FDCE142351F76200007855 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E4FDCE172351F76200007855 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E4FDCE192351F76200007855 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E4FDCE1B2351F76300007855 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E4FDCE1D2351F76300007855 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4FDCE222351F76300007855 /* JSONPrettyView Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "JSONPrettyView Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4FDCE272351F76300007855 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		E4FDCE2A2351F76300007855 /* SafariExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariExtensionHandler.swift; sourceTree = "<group>"; };
+		E4FDCE2C2351F76300007855 /* SafariExtensionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariExtensionViewController.swift; sourceTree = "<group>"; };
+		E4FDCE2F2351F76300007855 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/SafariExtensionViewController.xib; sourceTree = "<group>"; };
+		E4FDCE312351F76300007855 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4FDCE322351F76300007855 /* script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = script.js; sourceTree = "<group>"; };
+		E4FDCE362351F76300007855 /* JSONPrettyView_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = JSONPrettyView_Extension.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E4FDCE0C2351F76200007855 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4FDCE1F2351F76300007855 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4FDCE282351F76300007855 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E4FDCE062351F76200007855 = {
+			isa = PBXGroup;
+			children = (
+				E4FDCE112351F76200007855 /* JSONPrettyView */,
+				E4FDCE292351F76300007855 /* JSONPrettyView Extension */,
+				E4FDCE262351F76300007855 /* Frameworks */,
+				E4FDCE102351F76200007855 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E4FDCE102351F76200007855 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E4FDCE0F2351F76200007855 /* JSONPrettyView.app */,
+				E4FDCE222351F76300007855 /* JSONPrettyView Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E4FDCE112351F76200007855 /* JSONPrettyView */ = {
+			isa = PBXGroup;
+			children = (
+				E4FDCE122351F76200007855 /* JSONPrettyView.entitlements */,
+				E4FDCE142351F76200007855 /* AppDelegate.swift */,
+				E4FDCE162351F76200007855 /* Main.storyboard */,
+				E4FDCE192351F76200007855 /* ViewController.swift */,
+				E4FDCE1B2351F76300007855 /* Assets.xcassets */,
+				E4FDCE1D2351F76300007855 /* Info.plist */,
+			);
+			path = JSONPrettyView;
+			sourceTree = "<group>";
+		};
+		E4FDCE262351F76300007855 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E4FDCE272351F76300007855 /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E4FDCE292351F76300007855 /* JSONPrettyView Extension */ = {
+			isa = PBXGroup;
+			children = (
+				E4FDCE2A2351F76300007855 /* SafariExtensionHandler.swift */,
+				E4FDCE2C2351F76300007855 /* SafariExtensionViewController.swift */,
+				E4FDCE2E2351F76300007855 /* SafariExtensionViewController.xib */,
+				E4FA4DFC235214FA00B75175 /* icons.svg */,
+				E4FA4E0B23530DC000B75175 /* toggle96.png */,
+				E4FA4DFB235214FA00B75175 /* jsonTree.css */,
+				E4FA4DFD235214FA00B75175 /* jsonTree.js */,
+				E4FDCE312351F76300007855 /* Info.plist */,
+				E4FA4E012352520100B75175 /* favicon.ico */,
+				E4FDCE322351F76300007855 /* script.js */,
+				E4FDCE362351F76300007855 /* JSONPrettyView_Extension.entitlements */,
+			);
+			path = "JSONPrettyView Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E4FDCE0E2351F76200007855 /* JSONPrettyView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4FDCE3D2351F76300007855 /* Build configuration list for PBXNativeTarget "JSONPrettyView" */;
+			buildPhases = (
+				E4FDCE0B2351F76200007855 /* Sources */,
+				E4FDCE0C2351F76200007855 /* Frameworks */,
+				E4FDCE0D2351F76200007855 /* Resources */,
+				E4FDCE3C2351F76300007855 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E4FDCE252351F76300007855 /* PBXTargetDependency */,
+			);
+			name = JSONPrettyView;
+			productName = JSONPrettyView;
+			productReference = E4FDCE0F2351F76200007855 /* JSONPrettyView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E4FDCE212351F76300007855 /* JSONPrettyView Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4FDCE392351F76300007855 /* Build configuration list for PBXNativeTarget "JSONPrettyView Extension" */;
+			buildPhases = (
+				E4FDCE1E2351F76300007855 /* Sources */,
+				E4FDCE1F2351F76300007855 /* Frameworks */,
+				E4FDCE202351F76300007855 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "JSONPrettyView Extension";
+			productName = "JSONPrettyView Extension";
+			productReference = E4FDCE222351F76300007855 /* JSONPrettyView Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E4FDCE072351F76200007855 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = Houzz;
+				TargetAttributes = {
+					E4FDCE0E2351F76200007855 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					E4FDCE212351F76300007855 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+				};
+			};
+			buildConfigurationList = E4FDCE0A2351F76200007855 /* Build configuration list for PBXProject "JSONPrettyView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E4FDCE062351F76200007855;
+			productRefGroup = E4FDCE102351F76200007855 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E4FDCE0E2351F76200007855 /* JSONPrettyView */,
+				E4FDCE212351F76300007855 /* JSONPrettyView Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E4FDCE0D2351F76200007855 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4FDCE132351F76200007855 /* JSONPrettyView.entitlements in Resources */,
+				E4FDCE1C2351F76300007855 /* Assets.xcassets in Resources */,
+				E4FDCE182351F76200007855 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4FDCE202351F76300007855 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4FDCE302351F76300007855 /* SafariExtensionViewController.xib in Resources */,
+				E4FA4DFE235214FA00B75175 /* jsonTree.css in Resources */,
+				E4FA4E022352520100B75175 /* favicon.ico in Resources */,
+				E4FA4E0C23530DC100B75175 /* toggle96.png in Resources */,
+				E4FDCE332351F76300007855 /* script.js in Resources */,
+				E4FA4E00235214FA00B75175 /* jsonTree.js in Resources */,
+				E4FA4DFF235214FA00B75175 /* icons.svg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E4FDCE0B2351F76200007855 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4FDCE1A2351F76200007855 /* ViewController.swift in Sources */,
+				E4FDCE152351F76200007855 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4FDCE1E2351F76300007855 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4FDCE2D2351F76300007855 /* SafariExtensionViewController.swift in Sources */,
+				E4FDCE2B2351F76300007855 /* SafariExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E4FDCE252351F76300007855 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E4FDCE212351F76300007855 /* JSONPrettyView Extension */;
+			targetProxy = E4FDCE242351F76300007855 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E4FDCE162351F76200007855 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E4FDCE172351F76200007855 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E4FDCE2E2351F76300007855 /* SafariExtensionViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E4FDCE2F2351F76300007855 /* Base */,
+			);
+			name = SafariExtensionViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E4FDCE372351F76300007855 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E4FDCE382351F76300007855 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		E4FDCE3A2351F76300007855 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "JSONPrettyView Extension/JSONPrettyView_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J8ZST4AX3A;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "JSONPrettyView Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.houzz.JSONPrettyView-Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E4FDCE3B2351F76300007855 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "JSONPrettyView Extension/JSONPrettyView_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J8ZST4AX3A;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "JSONPrettyView Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.houzz.JSONPrettyView-Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		E4FDCE3E2351F76300007855 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = JSONPrettyView/JSONPrettyView.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = J8ZST4AX3A;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = JSONPrettyView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.houzz.JSONPrettyView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E4FDCE3F2351F76300007855 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = JSONPrettyView/JSONPrettyView.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = J8ZST4AX3A;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = JSONPrettyView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.houzz.JSONPrettyView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E4FDCE0A2351F76200007855 /* Build configuration list for PBXProject "JSONPrettyView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4FDCE372351F76300007855 /* Debug */,
+				E4FDCE382351F76300007855 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4FDCE392351F76300007855 /* Build configuration list for PBXNativeTarget "JSONPrettyView Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4FDCE3A2351F76300007855 /* Debug */,
+				E4FDCE3B2351F76300007855 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4FDCE3D2351F76300007855 /* Build configuration list for PBXNativeTarget "JSONPrettyView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4FDCE3E2351F76300007855 /* Debug */,
+				E4FDCE3F2351F76300007855 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E4FDCE072351F76200007855 /* Project object */;
+}
