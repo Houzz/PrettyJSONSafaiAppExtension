@@ -4,6 +4,6 @@ With the new Safari old browser plug-ins are no longer supported and only app ex
 
 By default PrettyJSON will only expand the first 20 entries in any JSON array for brevity. You can use the contextual menu to expand all items, collapse all items, or only expand one level into the json. The contextual menu also lets you switch to viewing the original JSON.
 
-![](./screen.png)
+<center><img src='screen.png'/></center>
 
 To install, run the app once and then goto the preferences in Safari (you can do that by tapping a button in the app) and enable the extension.
