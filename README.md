@@ -1,4 +1,4 @@
-# PrettyJSON Safai App Extension
+# PrettyJSON Safari App Extension
 
 With the new Safari old browser plug-ins are no longer supported and only app extension are. So I wrote an app extension to format JSON files in Safari. The JSON formatting is using the [jsonTree](https://github.com/summerstyle/jsonTreeViewer) library with a few modifications.
 
